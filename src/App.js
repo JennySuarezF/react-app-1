@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import AboutMe from "./pages/AboutMe";
 import Contact from "./pages/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/sobre-mi" element={<AboutMe />} />
         <Route path="/contacto" element={<Contact />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
