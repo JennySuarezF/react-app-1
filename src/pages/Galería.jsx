@@ -1,5 +1,11 @@
+import Fotos from "../components/Fotos"
+
 const Galeria = () => {
-  return <div>Sobre mí</div>
+  return (
+    <>
+      <Fotos />
+    </>
+  )
 }
 
 export default Galeria
