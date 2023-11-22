@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <Link class="navbar-brand" to="/">Jenny Suárez</Link>
+        <Link class="navbar-brand" to="/">Álbum</Link>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
           aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +22,7 @@ const Navbar = () => {
             </li>
             <li class="nav-item">
               <Link class={`nav-link ${active === 1 && 'active'}`} to="/sobre-mi" onClick={() => setActive(1)}>
-                Sobre mí
+                Galería
               </Link>
             </li>
             <li class="nav-item dropdown">

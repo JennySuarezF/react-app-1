@@ -1,9 +1,9 @@
 const Footer = () => {
-    return (
-        <footer className="container-fluid">
-            <p>© {new Date().getFullYear()} Hecho por Jenny Suárez.</p>
-        </footer>
-    )
+  return (
+    <footer className="container-fluid">
+      © {new Date().getFullYear()} Hecho por Jenny Suárez.
+    </footer>
+  )
 }
 
 export default Footer
