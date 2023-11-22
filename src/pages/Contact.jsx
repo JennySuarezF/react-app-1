@@ -1,5 +1,11 @@
+import Formulario from "../components/Formulario"
+
 const Contact = () => {
-  return <div>Contacto</div>
+  return (
+    <>
+      <Formulario />
+    </>
+  )
 }
 
 export default Contact
